@@ -1,6 +1,7 @@
 package aoc2023
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -12,3 +13,10 @@ func TestCalibrate(t *testing.T) {
     }
 }
 
+func TestCalibratePartTwo(t *testing.T) {
+    want := 281
+    actual := calibrate("data/day1_part2_test.txt")
+    if want != actual {
+        t.Fatalf("Wanted %v and got %v", want, actual)
+    }
+}
