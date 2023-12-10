@@ -1,7 +1,6 @@
 package aoc2023
 
 import (
-	"fmt"
 	"testing"
 )
 
